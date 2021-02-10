@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: auto;
+  margin-top: 300px;
+  background-color: aquamarine;
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  position: relative;
+}
+.wrapper {
+  position: absolute;
+  left: 13px;
+  top: 10px;
+  padding-top: 13px;
+
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  background: yellow;
+  border-radius: 15px;
+}
+
+.badge {
+  display: block;
+}
+.badge1 {
+  display: none;
+}
+
+.wrapper1 {
+  width: 300px;
+  height: 300px;
+}
+.text {
+  display: none;
+}
+
+.text1 {
+  display: block;
+}
